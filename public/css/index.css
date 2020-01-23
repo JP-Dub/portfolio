@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+    width: 100%;
+    text-align: center;
+}
+p {
+    width: 100%;
+    text-align: center;
+}
+#certifications {
+    width: 27em;
+    margin: auto;
+}

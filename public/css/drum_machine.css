@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+  }
+  
+  body {
+    background: dimgray url('/../img/Bonus-Antique-Leather.jpg')top/cover;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  #drum-machine {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 1px solid black;
+    width: 552px;
+    height: 414px;
+    background: dimgray url('/../img/sc552x414.jpeg')no-repeat center;
+    background-size: auto;
+    -webkit-box-shadow: 20px 18px 18px 2px #404040;
+       -moz-box-shadow: 20px 18px 18px 2px #404040;
+    box-shadow: 20px 18px 18px 2px #404040;
+  }
+  
+  #display {
+    font-family: Quartz;
+    padding-top: 3.5px;
+    border: 1px solid dimgray;
+    width: 195.5px;
+    height: 19px;
+    color: white;
+  /*   margin-top: 13px;  set when using <header>*/
+    margin-top: 57px;
+    margin-left: 135.5px;
+    text-align: center;
+    font-size: 16px;
+    background-color: dimgray;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: -3px 2px 8px 2px inset black;
+       -moz-box-shadow: -3px 2px 8px 2px inset black;
+    box-shadow: -3px 2px 8px 2px inset black;
+  }
+  
+  #tableLayout {
+    border: 1px solid dimgray;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 401px;
+    height: 305.5px;
+    margin-left: 135.5px;
+    margin-top: 10.5px;
+  }
+  
+  table {
+    margin-top: 2px;
+    margin-left: 3.8px;
+    border-collapse: collapse;
+    width: 390px;
+    height: 298px;
+    outline-style: none;
+    -webkit-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none;
+    user-select: none;
+  }
+  
+  button {
+    color: black;
+    font-size: 20px;
+    margin-left: 6.7px;
+    background-color: #d9d9d9;
+    width: 116.5px;
+    height: 83px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 44px 20px inset #848484;
+       -moz-box-shadow: 0px 0px 44px 20px inset #848484;
+    box-shadow: 0px 0px 44px 20px inset #848484;
+    -webkit-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+    user-select: none;
+  }
+  
+  button:active {
+    -webkit-transform: translate(-0.5px, 0.5px);
+       -moz-transform: translate(-0.5px, 0.5px);
+        -ms-transform: translate(-0.5px, 0.5px);
+         -o-transform: translate(-0.5px, 0.5px);
+            transform: translate(-0.5px, 0.5px);
+    color: #FFFCED;
+  }
+  
+  button:focus {
+    outline: none;
+  } 
+  
+  .active {
+    -webkit-box-shadow: 0px 0px 44px 20px inset #848484;
+       -moz-box-shadow: 0px 0px 44px 20px inset #848484;
+            box-shadow: 0px 0px 44px 20px inset #848484;
+    -webkit-transform: translate(-0.8px, 0.5px);
+       -moz-transform: translate(-0.8px, 0.5px);
+        -ms-transform: translate(-0.8px, 0.5px);
+         -o-transform: translate(-0.8px, 0.5px);
+            transform: translate(-0.8px, 0.5px);
+    border-top: 0;
+    border-left: 0;
+    border-right: 2px solid #FFFCED;
+    border-bottom: 2px solid #FFFCED;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    color: #FFFCED;
+  }
